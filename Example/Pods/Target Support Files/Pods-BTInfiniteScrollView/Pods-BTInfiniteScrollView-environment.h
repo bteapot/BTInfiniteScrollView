@@ -8,7 +8,7 @@
 
 // BTInfiniteScrollView
 #define COCOAPODS_POD_AVAILABLE_BTInfiniteScrollView
-#define COCOAPODS_VERSION_MAJOR_BTInfiniteScrollView 0
-#define COCOAPODS_VERSION_MINOR_BTInfiniteScrollView 1
+#define COCOAPODS_VERSION_MAJOR_BTInfiniteScrollView 1
+#define COCOAPODS_VERSION_MINOR_BTInfiniteScrollView 0
 #define COCOAPODS_VERSION_PATCH_BTInfiniteScrollView 0
 

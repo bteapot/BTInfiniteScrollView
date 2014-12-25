@@ -9,20 +9,16 @@
 
 Pod::Spec.new do |s|
   s.name             = "BTInfiniteScrollView"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of BTInfiniteScrollView."
+  s.version          = "1.0.0"
+  s.summary          = "Yet another Infinite ScrollView."
   s.description      = <<-DESC
-                       An optional longer description of BTInfiniteScrollView
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       UIScrollView subclass with infinite scrolling.
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/BTInfiniteScrollView"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/bteapot/BTInfiniteScrollView"
+  s.screenshots      = "http://i.imgur.com/LW1OnZM.gif"
   s.license          = 'MIT'
-  s.author           = { "Денис Либит" => "libit@prognoz.ru" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/BTInfiniteScrollView.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { "Денис Либит" => "bteapot@me.com" }
+  s.source           = { :git => "https://github.com/bteapot/BTInfiniteScrollView.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
@@ -31,8 +27,4 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
     'BTInfiniteScrollView' => ['Pod/Assets/*.png']
   }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
