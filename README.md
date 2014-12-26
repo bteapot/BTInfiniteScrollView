@@ -1,6 +1,5 @@
 # BTInfiniteScrollView
 
-[![CI Status](http://img.shields.io/travis/bteapot/BTInfiniteScrollView.svg?style=flat)](https://travis-ci.org/bteapot/BTInfiniteScrollView)
 [![Version](https://img.shields.io/cocoapods/v/BTInfiniteScrollView.svg?style=flat)](http://cocoadocs.org/docsets/BTInfiniteScrollView)
 [![License](https://img.shields.io/cocoapods/l/BTInfiniteScrollView.svg?style=flat)](http://cocoadocs.org/docsets/BTInfiniteScrollView)
 [![Platform](https://img.shields.io/cocoapods/p/BTInfiniteScrollView.svg?style=flat)](http://cocoadocs.org/docsets/BTInfiniteScrollView)
