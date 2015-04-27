@@ -71,6 +71,7 @@
 
 @implementation BTInfiniteScrollView
 
+@dynamic delegate;
 @synthesize thickness = _thickness;
 
 #pragma mark - Жизненный цикл
