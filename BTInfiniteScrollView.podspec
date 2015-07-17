@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "BTInfiniteScrollView"
-  s.version          = "1.0.1"
+  s.version          = "1.0.2"
   s.summary          = "Yet another Infinite ScrollView."
   s.description      = <<-DESC
                        UIScrollView subclass with infinite scrolling.
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes'
-  s.resource_bundles = {
-    'BTInfiniteScrollView' => ['Pod/Assets/*.png']
-  }
+# s.resource_bundles = {
+#    'BTInfiniteScrollView' => ['Pod/Assets/*.png']
+#  }
 end

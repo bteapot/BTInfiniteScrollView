@@ -1,1117 +1,448 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>0119D7AF59C034CCCF23B6CA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-BTInfiniteScrollView-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>03A2AA78C127F1F3D6274389</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>3A99DCBD7100942A7ADF0952</string>
-			<key>buildPhases</key>
-			<array>
-				<string>EAB0A1FC66782281997F0CB2</string>
-				<string>74B6731C393C7B33E4210D0F</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>2FCECC6B5FABE12F4F84ED30</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-BTInfiniteScrollView</string>
-			<key>productName</key>
-			<string>Pods-BTInfiniteScrollView</string>
-			<key>productReference</key>
-			<string>0AFF948214AADC736139C067</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>0A82D3A0DAD86CCF5988C295</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-BTInfiniteScrollView-BTInfiniteScrollView.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>0AFF948214AADC736139C067</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-BTInfiniteScrollView.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>0DB8D3844869120B0EDA8E4E</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>2AB306F3B628FE0E7ABDD853</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>1004852FB54E1C07BFDB5E5D</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>A3B47CD658766ECA356D2755</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>6FDC1C096A7278659B0C51CD</string>
-			<key>remoteInfo</key>
-			<string>BTInfiniteScrollView</string>
-		</dict>
-		<key>10B8520E44194615AA1D0F92</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>6FEB5E0F72D1AE2E50D21DAF</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-BTInfiniteScrollView-BTInfiniteScrollView/Pods-BTInfiniteScrollView-BTInfiniteScrollView-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>137ED32E5012F721E28FB8F7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>BTInfiniteScrollView.h</string>
-			<key>path</key>
-			<string>Pod/Classes/BTInfiniteScrollView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>149F1C2A2279235369A50BBA</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>8F1FDEB4F3B03751DF01BA4E</string>
-				<string>3B52A2F89ECE36ADE485DE97</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>1CD7447C7E1F628DD49A1F12</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>1DF138217CB95DAFA0F1241F</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>BTInfiniteScrollView</string>
-			<key>target</key>
-			<string>6FDC1C096A7278659B0C51CD</string>
-			<key>targetProxy</key>
-			<string>1004852FB54E1C07BFDB5E5D</string>
-		</dict>
-		<key>20DDF1BC6AE923CFA7A4A32C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AC77B7DB2B5B08B9519EB473</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>27BF61BF216428DDD2E08D99</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>A3B47CD658766ECA356D2755</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>8D24C69F0F6463D6DEFF7E37</string>
-			<key>remoteInfo</key>
-			<string>Pods-BTInfiniteScrollView-BTInfiniteScrollView</string>
-		</dict>
-		<key>2AB306F3B628FE0E7ABDD853</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-BTInfiniteScrollView.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2E31E33D74934902E58CAC53</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>RELEASE=1</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>2FCECC6B5FABE12F4F84ED30</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-BTInfiniteScrollView-BTInfiniteScrollView</string>
-			<key>target</key>
-			<string>8D24C69F0F6463D6DEFF7E37</string>
-			<key>targetProxy</key>
-			<string>27BF61BF216428DDD2E08D99</string>
-		</dict>
-		<key>3A99DCBD7100942A7ADF0952</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>0DB8D3844869120B0EDA8E4E</string>
-				<string>AE812C57DDF32CF47B30156F</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>3B52A2F89ECE36ADE485DE97</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>3D5D7237BDDED84CF69DCCC0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>88432F7088BD8F3778F41329</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3F6A276A600E3EEAB0327117</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>7F52679C9BA93B6831CA7F01</string>
-				<string>10B8520E44194615AA1D0F92</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>4686A2910B8B54D53F219F48</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-BTInfiniteScrollView-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>508840017112BD566ECA888F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B7F5A92208A9474987E5522F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>535F0BB158101FD1FE0861D9</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6B106EBCD99A6AE26F7135E4</string>
-				<string>6FEB5E0F72D1AE2E50D21DAF</string>
-				<string>91128B4A5DB3F10A429D428E</string>
-				<string>FEA193D5FF2632EBEB19074E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>Example/Pods/Target Support Files/Pods-BTInfiniteScrollView-BTInfiniteScrollView</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>56DA7C49F140C738B85B4849</key>
-		<dict>
-			<key>fileRef</key>
-			<string>91128B4A5DB3F10A429D428E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5796D6AA71717837F0CAF007</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>137ED32E5012F721E28FB8F7</string>
-				<string>B7F5A92208A9474987E5522F</string>
-				<string>535F0BB158101FD1FE0861D9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>BTInfiniteScrollView</string>
-			<key>path</key>
-			<string>../..</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6036E33DF6348A2E7212C68F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>6AF8E121EE525DA92178C9F9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>6053D92966A7B3C2E0063B4E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>62DA1C2EA587B4251DA646E2</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>6AF8E121EE525DA92178C9F9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AC77B7DB2B5B08B9519EB473</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6B106EBCD99A6AE26F7135E4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-BTInfiniteScrollView-BTInfiniteScrollView.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6CE89389892B4BF4302FEC72</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>6FDC1C096A7278659B0C51CD</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>149F1C2A2279235369A50BBA</string>
-			<key>buildPhases</key>
-			<array>
-				<string>62DA1C2EA587B4251DA646E2</string>
-				<string>DDB2098FAA8C9D364A48A3A8</string>
-				<string>1CD7447C7E1F628DD49A1F12</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>BTInfiniteScrollView</string>
-			<key>productName</key>
-			<string>BTInfiniteScrollView</string>
-			<key>productReference</key>
-			<string>74CE88EE85D4F2ED1765014A</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle</string>
-		</dict>
-		<key>6FEB5E0F72D1AE2E50D21DAF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-BTInfiniteScrollView-BTInfiniteScrollView-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>74B6731C393C7B33E4210D0F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>20DDF1BC6AE923CFA7A4A32C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>74CE88EE85D4F2ED1765014A</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>BTInfiniteScrollView.bundle</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>7C7E1DFB683ADCB36A517C87</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>508840017112BD566ECA888F</string>
-				<string>56DA7C49F140C738B85B4849</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7D4C7175803C09213CC48009</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>AC77B7DB2B5B08B9519EB473</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7DFD13AF7B59CC4F3FD0287A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-BTInfiniteScrollView.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7F52679C9BA93B6831CA7F01</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>6FEB5E0F72D1AE2E50D21DAF</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-BTInfiniteScrollView-BTInfiniteScrollView/Pods-BTInfiniteScrollView-BTInfiniteScrollView-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>88432F7088BD8F3778F41329</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>A18423FB54D57FB60BA21276</string>
-				<string>8AAF2194D9197C8BEF2170D4</string>
-				<string>F634A2C85467862307A26F13</string>
-				<string>4686A2910B8B54D53F219F48</string>
-				<string>0119D7AF59C034CCCF23B6CA</string>
-				<string>2AB306F3B628FE0E7ABDD853</string>
-				<string>7DFD13AF7B59CC4F3FD0287A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-BTInfiniteScrollView</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-BTInfiniteScrollView</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8AAF2194D9197C8BEF2170D4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-BTInfiniteScrollView-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8D24C69F0F6463D6DEFF7E37</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>3F6A276A600E3EEAB0327117</string>
-			<key>buildPhases</key>
-			<array>
-				<string>7C7E1DFB683ADCB36A517C87</string>
-				<string>6036E33DF6348A2E7212C68F</string>
-				<string>F1D3EC76C75400C9C988F7A6</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>1DF138217CB95DAFA0F1241F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-BTInfiniteScrollView-BTInfiniteScrollView</string>
-			<key>productName</key>
-			<string>Pods-BTInfiniteScrollView-BTInfiniteScrollView</string>
-			<key>productReference</key>
-			<string>0A82D3A0DAD86CCF5988C295</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>8F1FDEB4F3B03751DF01BA4E</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>90EC00BD4560A48B44C0096C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F634A2C85467862307A26F13</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>91128B4A5DB3F10A429D428E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-BTInfiniteScrollView-BTInfiniteScrollView-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9A7DE26CC2A65CB980DE97E3</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6053D92966A7B3C2E0063B4E</string>
-				<string>E355221AD63A52374FC9247C</string>
-				<string>E486BD00111CE86773DE9DF5</string>
-				<string>9CE031D88ACC27A9380A3924</string>
-				<string>3D5D7237BDDED84CF69DCCC0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9CE031D88ACC27A9380A3924</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>74CE88EE85D4F2ED1765014A</string>
-				<string>0AFF948214AADC736139C067</string>
-				<string>0A82D3A0DAD86CCF5988C295</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A18423FB54D57FB60BA21276</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-BTInfiniteScrollView-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A3B47CD658766ECA356D2755</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>B9CF84740C8DB77AE00831EC</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>9A7DE26CC2A65CB980DE97E3</string>
-			<key>productRefGroup</key>
-			<string>9CE031D88ACC27A9380A3924</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>6FDC1C096A7278659B0C51CD</string>
-				<string>03A2AA78C127F1F3D6274389</string>
-				<string>8D24C69F0F6463D6DEFF7E37</string>
-			</array>
-		</dict>
-		<key>AC77B7DB2B5B08B9519EB473</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>AE812C57DDF32CF47B30156F</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>7DFD13AF7B59CC4F3FD0287A</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>B7F5A92208A9474987E5522F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>BTInfiniteScrollView.m</string>
-			<key>path</key>
-			<string>Pod/Classes/BTInfiniteScrollView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B9CF84740C8DB77AE00831EC</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>6CE89389892B4BF4302FEC72</string>
-				<string>2E31E33D74934902E58CAC53</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>DDB2098FAA8C9D364A48A3A8</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E355221AD63A52374FC9247C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5796D6AA71717837F0CAF007</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Development Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E486BD00111CE86773DE9DF5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7D4C7175803C09213CC48009</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EAB0A1FC66782281997F0CB2</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>90EC00BD4560A48B44C0096C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>F1D3EC76C75400C9C988F7A6</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>F6752964D5C1BED102920029</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>F634A2C85467862307A26F13</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-BTInfiniteScrollView-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F6752964D5C1BED102920029</key>
-		<dict>
-			<key>fileRef</key>
-			<string>137ED32E5012F721E28FB8F7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FEA193D5FF2632EBEB19074E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-BTInfiniteScrollView-BTInfiniteScrollView-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>A3B47CD658766ECA356D2755</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D0003B3B8D82FB1E0443B85 /* Pods-BTInfiniteScrollView-BTInfiniteScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9806601EBA0A4642BE1C2680 /* Pods-BTInfiniteScrollView-BTInfiniteScrollView-dummy.m */; };
+		2CC21195B850754CD399A6B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60373D4863576C9D32DDE760 /* Foundation.framework */; };
+		2D5C35208E844E8DE9DCC191 /* Pods-BTInfiniteScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F85B5DD91CA6BC4CAF2EB66 /* Pods-BTInfiniteScrollView-dummy.m */; };
+		A3BFE5B15523705B3354198C /* BTInfiniteScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D21F9876027B6A86E9E17BBC /* BTInfiniteScrollView.m */; };
+		DD66097D836E806353EBFF46 /* BTInfiniteScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 85093D0DEA9076A0FA624D49 /* BTInfiniteScrollView.h */; };
+		DF72163370615E6FD4F41D3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60373D4863576C9D32DDE760 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E5C41E907913B8A0CE16535 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49773530AE385D1864F2BC63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F585605A93278D61205A48B9;
+			remoteInfo = "Pods-BTInfiniteScrollView-BTInfiniteScrollView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		205E3D39F7BD16EDC73D2599 /* Pods-BTInfiniteScrollView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BTInfiniteScrollView-acknowledgements.plist"; sourceTree = "<group>"; };
+		22414791A069F3D6CA19724C /* Pods-BTInfiniteScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BTInfiniteScrollView.debug.xcconfig"; sourceTree = "<group>"; };
+		3B26E0D0D2585CF23EA18F87 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		60373D4863576C9D32DDE760 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		62808C701B83B1582403174E /* Pods-BTInfiniteScrollView-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BTInfiniteScrollView-resources.sh"; sourceTree = "<group>"; };
+		6F85B5DD91CA6BC4CAF2EB66 /* Pods-BTInfiniteScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BTInfiniteScrollView-dummy.m"; sourceTree = "<group>"; };
+		7C73EF52F2FC2FAF60483151 /* Pods-BTInfiniteScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BTInfiniteScrollView.release.xcconfig"; sourceTree = "<group>"; };
+		80942A765A856771D83661EF /* libPods-BTInfiniteScrollView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BTInfiniteScrollView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85093D0DEA9076A0FA624D49 /* BTInfiniteScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BTInfiniteScrollView.h; sourceTree = "<group>"; };
+		9806601EBA0A4642BE1C2680 /* Pods-BTInfiniteScrollView-BTInfiniteScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BTInfiniteScrollView-BTInfiniteScrollView-dummy.m"; sourceTree = "<group>"; };
+		9F3D21C3AB919ABD28B2E180 /* Pods-BTInfiniteScrollView-BTInfiniteScrollView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BTInfiniteScrollView-BTInfiniteScrollView-Private.xcconfig"; sourceTree = "<group>"; };
+		BBB68F5E31F2AF1AB70A938D /* libPods-BTInfiniteScrollView-BTInfiniteScrollView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BTInfiniteScrollView-BTInfiniteScrollView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE64B6853FD9AB9E9075EE9D /* Pods-BTInfiniteScrollView-BTInfiniteScrollView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BTInfiniteScrollView-BTInfiniteScrollView-prefix.pch"; sourceTree = "<group>"; };
+		D21F9876027B6A86E9E17BBC /* BTInfiniteScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BTInfiniteScrollView.m; sourceTree = "<group>"; };
+		E0F6839F17629D224E50877F /* Pods-BTInfiniteScrollView-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BTInfiniteScrollView-environment.h"; sourceTree = "<group>"; };
+		EB1E7787DA7FCA5B36B4AF79 /* Pods-BTInfiniteScrollView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BTInfiniteScrollView-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EE1B71FAF3D4D21D5382361D /* Pods-BTInfiniteScrollView-BTInfiniteScrollView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BTInfiniteScrollView-BTInfiniteScrollView.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		457B83EE7CEB57F05EAE34CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CC21195B850754CD399A6B6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEFBE31C319A08831E7F70D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF72163370615E6FD4F41D3B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		001768E31A73BA892A760DFB /* Pods-BTInfiniteScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				EB1E7787DA7FCA5B36B4AF79 /* Pods-BTInfiniteScrollView-acknowledgements.markdown */,
+				205E3D39F7BD16EDC73D2599 /* Pods-BTInfiniteScrollView-acknowledgements.plist */,
+				6F85B5DD91CA6BC4CAF2EB66 /* Pods-BTInfiniteScrollView-dummy.m */,
+				E0F6839F17629D224E50877F /* Pods-BTInfiniteScrollView-environment.h */,
+				62808C701B83B1582403174E /* Pods-BTInfiniteScrollView-resources.sh */,
+				22414791A069F3D6CA19724C /* Pods-BTInfiniteScrollView.debug.xcconfig */,
+				7C73EF52F2FC2FAF60483151 /* Pods-BTInfiniteScrollView.release.xcconfig */,
+			);
+			name = "Pods-BTInfiniteScrollView";
+			path = "Target Support Files/Pods-BTInfiniteScrollView";
+			sourceTree = "<group>";
+		};
+		2830D18069227A28BCC748B9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				85093D0DEA9076A0FA624D49 /* BTInfiniteScrollView.h */,
+				D21F9876027B6A86E9E17BBC /* BTInfiniteScrollView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4B0834D058CD50551C65C793 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				60373D4863576C9D32DDE760 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5320EB7C5CE7C42DAB16891C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C02F96B7E9C52F5C4C457092 /* BTInfiniteScrollView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		53A14F3DCF4827438199DDF3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				001768E31A73BA892A760DFB /* Pods-BTInfiniteScrollView */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7645D1F8DEF4C9A561379131 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE1B71FAF3D4D21D5382361D /* Pods-BTInfiniteScrollView-BTInfiniteScrollView.xcconfig */,
+				9F3D21C3AB919ABD28B2E180 /* Pods-BTInfiniteScrollView-BTInfiniteScrollView-Private.xcconfig */,
+				9806601EBA0A4642BE1C2680 /* Pods-BTInfiniteScrollView-BTInfiniteScrollView-dummy.m */,
+				CE64B6853FD9AB9E9075EE9D /* Pods-BTInfiniteScrollView-BTInfiniteScrollView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-BTInfiniteScrollView-BTInfiniteScrollView";
+			sourceTree = "<group>";
+		};
+		782CC1BF1135A28DF9FE8021 = {
+			isa = PBXGroup;
+			children = (
+				3B26E0D0D2585CF23EA18F87 /* Podfile */,
+				5320EB7C5CE7C42DAB16891C /* Development Pods */,
+				EAB5DCAA5A455485F074A6A4 /* Frameworks */,
+				D7001F4267EDE92D675C5F01 /* Products */,
+				53A14F3DCF4827438199DDF3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BAD268BBCEB40D004BB736E8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2830D18069227A28BCC748B9 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		C02F96B7E9C52F5C4C457092 /* BTInfiniteScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				BAD268BBCEB40D004BB736E8 /* Pod */,
+				7645D1F8DEF4C9A561379131 /* Support Files */,
+			);
+			name = BTInfiniteScrollView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D7001F4267EDE92D675C5F01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80942A765A856771D83661EF /* libPods-BTInfiniteScrollView.a */,
+				BBB68F5E31F2AF1AB70A938D /* libPods-BTInfiniteScrollView-BTInfiniteScrollView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAB5DCAA5A455485F074A6A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B0834D058CD50551C65C793 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E44C00B4BFCA44E9E46C8170 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD66097D836E806353EBFF46 /* BTInfiniteScrollView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D311BBC74BC67044BD31A170 /* Pods-BTInfiniteScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCC035279ECBD813AE7D8088 /* Build configuration list for PBXNativeTarget "Pods-BTInfiniteScrollView" */;
+			buildPhases = (
+				317FF96224EEBCC6E71BF864 /* Sources */,
+				DEFBE31C319A08831E7F70D2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3795081FE0B615882EEE3C4D /* PBXTargetDependency */,
+			);
+			name = "Pods-BTInfiniteScrollView";
+			productName = "Pods-BTInfiniteScrollView";
+			productReference = 80942A765A856771D83661EF /* libPods-BTInfiniteScrollView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F585605A93278D61205A48B9 /* Pods-BTInfiniteScrollView-BTInfiniteScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB225EC6658E8A6E8C1950C /* Build configuration list for PBXNativeTarget "Pods-BTInfiniteScrollView-BTInfiniteScrollView" */;
+			buildPhases = (
+				015077C3FA8A4781904A895E /* Sources */,
+				457B83EE7CEB57F05EAE34CE /* Frameworks */,
+				E44C00B4BFCA44E9E46C8170 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BTInfiniteScrollView-BTInfiniteScrollView";
+			productName = "Pods-BTInfiniteScrollView-BTInfiniteScrollView";
+			productReference = BBB68F5E31F2AF1AB70A938D /* libPods-BTInfiniteScrollView-BTInfiniteScrollView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49773530AE385D1864F2BC63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 1B2BF8CE5FFD890B5B794C7E /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 782CC1BF1135A28DF9FE8021;
+			productRefGroup = D7001F4267EDE92D675C5F01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D311BBC74BC67044BD31A170 /* Pods-BTInfiniteScrollView */,
+				F585605A93278D61205A48B9 /* Pods-BTInfiniteScrollView-BTInfiniteScrollView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		015077C3FA8A4781904A895E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3BFE5B15523705B3354198C /* BTInfiniteScrollView.m in Sources */,
+				1D0003B3B8D82FB1E0443B85 /* Pods-BTInfiniteScrollView-BTInfiniteScrollView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		317FF96224EEBCC6E71BF864 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D5C35208E844E8DE9DCC191 /* Pods-BTInfiniteScrollView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3795081FE0B615882EEE3C4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BTInfiniteScrollView-BTInfiniteScrollView";
+			target = F585605A93278D61205A48B9 /* Pods-BTInfiniteScrollView-BTInfiniteScrollView */;
+			targetProxy = 7E5C41E907913B8A0CE16535 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D53BF917C61A2E6AD78DBE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		504F6177CB2DD36A82A6D273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22414791A069F3D6CA19724C /* Pods-BTInfiniteScrollView.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		759C4BED60480E71A1C6E861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F3D21C3AB919ABD28B2E180 /* Pods-BTInfiniteScrollView-BTInfiniteScrollView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-BTInfiniteScrollView-BTInfiniteScrollView/Pods-BTInfiniteScrollView-BTInfiniteScrollView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C79E922BD8DDEAEC1EFDC9DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D1924A44964E87F6426BEEFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F3D21C3AB919ABD28B2E180 /* Pods-BTInfiniteScrollView-BTInfiniteScrollView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-BTInfiniteScrollView-BTInfiniteScrollView/Pods-BTInfiniteScrollView-BTInfiniteScrollView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F39AAA4CBFE976731D70D210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C73EF52F2FC2FAF60483151 /* Pods-BTInfiniteScrollView.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B2BF8CE5FFD890B5B794C7E /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C79E922BD8DDEAEC1EFDC9DA /* Debug */,
+				0D53BF917C61A2E6AD78DBE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAB225EC6658E8A6E8C1950C /* Build configuration list for PBXNativeTarget "Pods-BTInfiniteScrollView-BTInfiniteScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				759C4BED60480E71A1C6E861 /* Debug */,
+				D1924A44964E87F6426BEEFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCC035279ECBD813AE7D8088 /* Build configuration list for PBXNativeTarget "Pods-BTInfiniteScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504F6177CB2DD36A82A6D273 /* Debug */,
+				F39AAA4CBFE976731D70D210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49773530AE385D1864F2BC63 /* Project object */;
+}
