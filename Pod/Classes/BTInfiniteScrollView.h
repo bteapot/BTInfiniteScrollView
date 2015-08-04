@@ -133,6 +133,14 @@ typedef NS_ENUM(NSUInteger, BTPosition) {
  */
 - (void)scrollToViewAtIndex:(NSInteger)index position:(BTPosition)position animated:(BOOL)animated;
 /**
+ Scrolls infinite scroll view to item at specified index plus specified offset.
+ @param index    Index of item.
+ @param position Position at which specified item's view will be located when the scrolling ends.
+ @param offset   Offset in points that will be added to final scroll position.
+ @param animated YES if the scrolling should be animated, NO if it should be immediate.
+ */
+- (void)scrollToViewAtIndex:(NSInteger)index position:(BTPosition)position offset:(CGFloat)offset animated:(BOOL)animated;
+/**
  Reloads the items of the receiver.
  */
 - (void)reloadViews;

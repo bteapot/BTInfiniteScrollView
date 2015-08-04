@@ -1,5 +1,5 @@
 PODS:
-  - BTInfiniteScrollView (1.0.1)
+  - BTInfiniteScrollView (1.0.3)
 
 DEPENDENCIES:
   - BTInfiniteScrollView (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BTInfiniteScrollView: 5a4dcac93c952d6321c0264ea2d1b6d50c0f793c
+  BTInfiniteScrollView: 23cac2d58a3a42030fdc2306d9c4ad1ebc9dd67a
 
-COCOAPODS: 0.37.2
+COCOAPODS: 0.38.2

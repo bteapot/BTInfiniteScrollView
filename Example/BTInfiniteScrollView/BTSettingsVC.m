@@ -49,8 +49,9 @@
 // -----------------------------------------------------------------------------
 - (void)settingStepBy:(UIStepper *)sender
 {
-	NSInteger index = [self.playgroundVC.infiniteScrollView indexOfViewAtPosition:BTPositionMiddle];
-	[self.playgroundVC.infiniteScrollView scrollToViewAtIndex:(index + sender.value) position:BTPositionMiddle animated:YES];
+	BTPosition position = self.playgroundVC.infiniteScrollView.position;
+	NSInteger index = [self.playgroundVC.infiniteScrollView indexOfViewAtPosition:position];
+	[self.playgroundVC.infiniteScrollView scrollToViewAtIndex:(index + sender.value) position:position animated:YES];
 	sender.value = 0;
 }
 
@@ -127,9 +128,12 @@
 			// info
 			return 4;
 		case 1:
+			// position
+			return 1;
+		case 2:
 			// geometry
 			return 5;
-		case 2:
+		case 3:
 			// items
 			return 2;
 		default:
@@ -145,8 +149,10 @@
 		case 0:
 			return @"Info";
 		case 1:
-			return @"Geometry";
+			return @"Position";
 		case 2:
+			return @"Geometry";
+		case 3:
 			return @"Items";
 		default:
 			return nil;
@@ -226,6 +232,20 @@
 			break;
 		}
 		case 1: {
+			// position
+			switch (indexPath.row) {
+				case 0: {
+					// position
+					cell.textLabel.text = @[@"Start", @"Middle", @"End"][self.playgroundVC.infiniteScrollView.position];
+					cell.accessoryView = nil;
+					break;
+				}
+				default:
+					break;
+			}
+			break;
+		}
+		case 2: {
 			// geometry
 			switch (indexPath.row) {
 				case 0: {
@@ -278,7 +298,7 @@
 			}
 			break;
 		}
-		case 2: {
+		case 3: {
 			// items
 			switch (indexPath.row) {
 				case 0: {
@@ -309,6 +329,54 @@
 	}
 	
 	return cell;
+}
+
+//
+// -----------------------------------------------------------------------------
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+	switch (indexPath.section) {
+		case 1: {
+			// position
+			switch (indexPath.row) {
+				case 0: {
+					// position
+					BTPosition position = self.playgroundVC.infiniteScrollView.position;
+					
+					switch (position) {
+						case BTPositionStart: {
+							position = BTPositionMiddle;
+							break;
+						}
+						case BTPositionMiddle: {
+							position = BTPositionEnd;
+							break;
+						}
+						case BTPositionEnd: {
+							position = BTPositionStart;
+							break;
+						}
+					}
+					
+					self.playgroundVC.infiniteScrollView.position = position;
+					
+					[tableView reloadRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
+					
+					UITableViewCell *cell = [self.tableView cellForRowAtIndexPath:[NSIndexPath indexPathForItem:0 inSection:0]];
+					NSInteger index = [self.playgroundVC.infiniteScrollView indexOfViewAtPosition:position];
+					cell.detailTextLabel.text = [NSString stringWithFormat:@"%ld", (long)index];
+					break;
+				}
+				default:
+					break;
+			}
+			break;
+		}
+		default:
+			break;
+	}
+	
+	[tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 

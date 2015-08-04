@@ -402,7 +402,7 @@
 	
 	switch (position) {
 		case BTPositionStart:
-			mark = self.horizontal ? CGRectGetMinX(bounds) : CGRectGetMinY(bounds);
+			mark = ceilf(self.horizontal ? CGRectGetMinX(bounds) : CGRectGetMinY(bounds));
 			
 			for (BTItem *item in self.items) {
 				if (item.min <= mark && item.max > mark) {
@@ -422,7 +422,7 @@
 			break;
 			
 		case BTPositionEnd:
-			mark = self.horizontal ? CGRectGetMaxX(bounds) : CGRectGetMaxY(bounds);
+			mark = floorf(self.horizontal ? CGRectGetMaxX(bounds) : CGRectGetMaxY(bounds));
 			
 			for (BTItem *item in self.items) {
 				if (item.min < mark && item.max >= mark) {
@@ -566,7 +566,7 @@
 
 //
 // -----------------------------------------------------------------------------
-- (void)scrollToViewAtIndex:(NSInteger)index position:(BTPosition)position animated:(BOOL)animated
+- (void)scrollToViewAtIndex:(NSInteger)index position:(BTPosition)position offset:(CGFloat)offset animated:(BOOL)animated
 {
 	CGRect bounds = self.bounds;
 	
@@ -602,19 +602,19 @@
 		[newItems addObject:targetItem];
 		
 		// общая ширина для заполнения между целевой и существующими вьюхами
-		CGFloat gapWidth;
+		CGFloat gap;
 		
 		switch (position) {
 			case BTPositionStart:
-				gapWidth = start ? visible - targetItem.thickness : 0;
+				gap = start ? visible - targetItem.thickness + offset : -offset;
 				break;
 				
 			case BTPositionMiddle:
-				gapWidth = (visible - targetItem.thickness) / 2;
+				gap = start ? (visible - targetItem.thickness) / 2 + offset : (visible - targetItem.thickness) / 2 - offset;
 				break;
 				
 			case BTPositionEnd:
-				gapWidth = start ? 0 : visible - targetItem.thickness;
+				gap = start ? -offset : visible - targetItem.thickness + offset;
 				break;
 		}
 		
@@ -622,7 +622,7 @@
 		NSInteger indexDelta = (start ? firstItem.index - index : index - lastItem.index) - 1;
 		NSInteger gapItemIndex = index;
 		
-		while (indexDelta > 0 && gapWidth > 0) {
+		while (indexDelta > 0 && gap >= 0) {
 			gapItemIndex += start ? 1 : -1;
 			BTItem *item = [self getNewItemForIndex:gapItemIndex];
 			
@@ -632,7 +632,7 @@
 				[newItems insertObject:item atIndex:0];
 			}
 			
-			gapWidth -= item.thickness;
+			gap -= item.thickness;
 			indexDelta--;
 		}
 		
@@ -680,25 +680,25 @@
 	switch (position) {
 		case BTPositionStart:
 			if (self.horizontal) {
-				bounds = CGRectMake(targetItem.min, bounds.origin.y, bounds.size.width, bounds.size.height);
+				bounds = CGRectMake(targetItem.min + offset, bounds.origin.y, bounds.size.width, bounds.size.height);
 			} else {
-				bounds = CGRectMake(bounds.origin.x, targetItem.min, bounds.size.width, bounds.size.height);
+				bounds = CGRectMake(bounds.origin.x, targetItem.min + offset, bounds.size.width, bounds.size.height);
 			}
 			break;
 			
 		case BTPositionMiddle:
 			if (self.horizontal) {
-				bounds = CGRectMake(targetItem.min - (bounds.size.width - targetItem.thickness) / 2, bounds.origin.y, bounds.size.width, bounds.size.height);
+				bounds = CGRectMake(targetItem.min - (bounds.size.width - targetItem.thickness) / 2 + offset, bounds.origin.y, bounds.size.width, bounds.size.height);
 			} else {
-				bounds = CGRectMake(bounds.origin.x, targetItem.min - (bounds.size.height - targetItem.thickness) / 2, bounds.size.width, bounds.size.height);
+				bounds = CGRectMake(bounds.origin.x, targetItem.min - (bounds.size.height - targetItem.thickness) / 2 + offset, bounds.size.width, bounds.size.height);
 			}
 			break;
 			
 		case BTPositionEnd:
 			if (self.horizontal) {
-				bounds = CGRectMake(targetItem.max - bounds.size.width, bounds.origin.y, bounds.size.width, bounds.size.height);
+				bounds = CGRectMake(targetItem.max - bounds.size.width + offset, bounds.origin.y, bounds.size.width, bounds.size.height);
 			} else {
-				bounds = CGRectMake(bounds.origin.x, targetItem.max - bounds.size.height, bounds.size.width, bounds.size.height);
+				bounds = CGRectMake(bounds.origin.x, targetItem.max - bounds.size.height + offset, bounds.size.width, bounds.size.height);
 			}
 			break;
 	}
@@ -718,6 +718,13 @@
 		self.scrolling--;
 		[self setNeedsLayout];
 	}];
+}
+
+//
+// -----------------------------------------------------------------------------
+- (void)scrollToViewAtIndex:(NSInteger)index position:(BTPosition)position animated:(BOOL)animated
+{
+	[self scrollToViewAtIndex:index position:position offset:0 animated:YES];
 }
 
 

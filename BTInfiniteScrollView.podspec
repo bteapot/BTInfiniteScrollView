@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "BTInfiniteScrollView"
-  s.version          = "1.0.2"
+  s.version          = "1.0.3"
   s.summary          = "Yet another Infinite ScrollView."
   s.description      = <<-DESC
                        UIScrollView subclass with infinite scrolling.
@@ -11,11 +11,8 @@ Pod::Spec.new do |s|
   s.author           = { "Денис Либит" => "bteapot@me.com" }
   s.source           = { :git => "https://github.com/bteapot/BTInfiniteScrollView.git", :tag => s.version.to_s }
 
-  s.platform     = :ios, '7.0'
-  s.requires_arc = true
+  s.platform         = :ios, '7.0'
+  s.requires_arc     = true
 
-  s.source_files = 'Pod/Classes'
-# s.resource_bundles = {
-#    'BTInfiniteScrollView' => ['Pod/Assets/*.png']
-#  }
+  s.source_files     = 'Pod/Classes'
 end
