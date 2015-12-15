@@ -44,6 +44,7 @@
 		92037BD11A482C7100EBA062 /* BTPlaygroundVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTPlaygroundVC.m; sourceTree = "<group>"; };
 		92037BD61A484DE400EBA062 /* BTItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTItemView.h; sourceTree = "<group>"; };
 		92037BD71A484DE400EBA062 /* BTItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTItemView.m; sourceTree = "<group>"; };
+		924DC0761C20644C00B276F8 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = CHANGELOG.md; path = ../CHANGELOG.md; sourceTree = "<group>"; };
 		978E5B5A5EC5F8B73DB26B19 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A8DA765D434CFA512DB79713 /* Pods-BTInfiniteScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTInfiniteScrollView.release.xcconfig"; path = "Pods/Target Support Files/Pods-BTInfiniteScrollView/Pods-BTInfiniteScrollView.release.xcconfig"; sourceTree = "<group>"; };
 		B934B49EE3E065468F1A9A2E /* libPods-BTInfiniteScrollView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BTInfiniteScrollView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,6 +125,7 @@
 			children = (
 				501E16AEC90BEF67039C2A9D /* BTInfiniteScrollView.podspec */,
 				D6A0F124A51BFEFDF24D0406 /* README.md */,
+				924DC0761C20644C00B276F8 /* CHANGELOG.md */,
 				978E5B5A5EC5F8B73DB26B19 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
@@ -169,6 +171,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				ECC03AABAC54C8A28DF00D23 /* Copy Pods Resources */,
+				5C7C8ED86C84135FDA706CC6 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -220,6 +223,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		5C7C8ED86C84135FDA706CC6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BTInfiniteScrollView/Pods-BTInfiniteScrollView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		C141393A49AFC121233DA223 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

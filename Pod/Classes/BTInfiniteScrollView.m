@@ -123,13 +123,15 @@
 	
 	bounds = self.bounds;
 	
+	NSUInteger pages = 5;
+	
 	if (self.horizontal) {
-		if (bounds.size.width * 5 > self.contentSize.width || bounds.size.height < self.contentSize.height) {
-			[super setContentSize:CGSizeMake(bounds.size.width * 5, bounds.size.height)];
+		if (bounds.size.width * pages > self.contentSize.width || bounds.size.height < self.contentSize.height) {
+			[super setContentSize:CGSizeMake(bounds.size.width * pages, bounds.size.height)];
 		}
 	} else {
-		if (bounds.size.height * 5 > self.contentSize.height || bounds.size.width < self.contentSize.width) {
-			[super setContentSize:CGSizeMake(bounds.size.width, bounds.size.height * 5)];
+		if (bounds.size.height * pages > self.contentSize.height || bounds.size.width < self.contentSize.width) {
+			[super setContentSize:CGSizeMake(bounds.size.width, bounds.size.height * pages)];
 		}
 	}
 	
@@ -171,25 +173,16 @@
 	if (self.scrolling == 0) {
 		CGFloat delta = self.horizontal ? self.contentSize.width / 2 - CGRectGetMidX(bounds) : self.contentSize.height / 2 - CGRectGetMidY(bounds);
 		
-		BOOL allow = self.pagingEnabled ? !self.decelerating : YES;
-		
-		if (allow && fabs(delta) > visible) {
+		if (fabs(delta) > visible) {
 			delta = visible * (delta > 0 ? 1 : -1);
 			
-			CGPoint contentOffset = self.contentOffset;
-			
-			id <BTInfiniteScrollViewDelegate> delegate = self.delegate;
-			self.delegate = nil;
-			
 			if (self.horizontal) {
-				self.contentOffset = CGPointMake(contentOffset.x + delta, contentOffset.y);
+				bounds = CGRectMake(bounds.origin.x + delta, bounds.origin.y, bounds.size.width, bounds.size.height);
 			} else {
-				self.contentOffset = CGPointMake(contentOffset.x, contentOffset.y + delta);
+				bounds = CGRectMake(bounds.origin.x, bounds.origin.y + delta, bounds.size.width, bounds.size.height);
 			}
 			
-			self.delegate = delegate;
-			
-			bounds = self.bounds;
+			self.bounds = bounds;
 			
 			for (BTItem *item in self.items) {
 				CGRect viewFrame = item.view.frame;
