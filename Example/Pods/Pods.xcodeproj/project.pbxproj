@@ -7,206 +7,206 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		085644AB567FF1CBFDFDFD3C /* Pods-BTInfiniteScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D04F5E0DE70CB58B6A97F0 /* Pods-BTInfiniteScrollView-dummy.m */; };
-		24A72F755CC3921A5A58DAF3 /* BTInfiniteScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2DAEC14B8DADC17780E445 /* BTInfiniteScrollView-dummy.m */; };
-		36D43605FDAE8186EDED5372 /* BTInfiniteScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 339DEDE91FB874B324ED3659 /* BTInfiniteScrollView.m */; };
-		4D0A4073DCC207C97B2A6897 /* BTInfiniteScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = F3F05ED43C808C5D62DABA1A /* BTInfiniteScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7DB06F57B7007D0622760F1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD9A0B2E4C7A4AF68002C4A /* Foundation.framework */; };
-		9E48F0A9262809E3E9B4F26B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD9A0B2E4C7A4AF68002C4A /* Foundation.framework */; };
+		0204B05AF93EA2C085877A4421D00EBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+		18D229468598D5E1473B39A618AC600A /* Pods-BTInfiniteScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F375B5798556419D426BE1E41469F0F /* Pods-BTInfiniteScrollView-dummy.m */; };
+		B08E5E30DC11B962F3946F4D29D45743 /* BTInfiniteScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 561EDBA8972E6732C6C53644ACC53236 /* BTInfiniteScrollView.m */; };
+		DB3902C76890E0C4F6BD1B44869FA83F /* BTInfiniteScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E0AE7392B737EDBE0BAB9379B66923E /* BTInfiniteScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD4F8BA3FB4A68075D04B0D813A1F832 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+		FE21C7A2A028E7F61398A90A6E299E20 /* BTInfiniteScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0FF76B4F850F24EACBC6913F692588 /* BTInfiniteScrollView-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		FD99DDCB558AEDF5818F57A0 /* PBXContainerItemProxy */ = {
+		7BA4C495043A0C5FD386ED15BE4F3A93 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1E9C32AEF338834B21025991 /* Project object */;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F5388A9A9CBBDB230AE26B3F;
+			remoteGlobalIDString = EBF1119F95EEC6A59989212D8B080715;
 			remoteInfo = BTInfiniteScrollView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01EF30782C7F3B8539145F64 /* BTInfiniteScrollView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BTInfiniteScrollView-prefix.pch"; sourceTree = "<group>"; };
-		1A2DAEC14B8DADC17780E445 /* BTInfiniteScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BTInfiniteScrollView-dummy.m"; sourceTree = "<group>"; };
-		1BD9A0B2E4C7A4AF68002C4A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		244091638A7FC99389873ACA /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		339DEDE91FB874B324ED3659 /* BTInfiniteScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BTInfiniteScrollView.m; sourceTree = "<group>"; };
-		6BECBB97AC41B841A897E9BC /* Pods-BTInfiniteScrollView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BTInfiniteScrollView-acknowledgements.plist"; sourceTree = "<group>"; };
-		74D04F5E0DE70CB58B6A97F0 /* Pods-BTInfiniteScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BTInfiniteScrollView-dummy.m"; sourceTree = "<group>"; };
-		8C39D556169284051A04BC77 /* Pods-BTInfiniteScrollView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BTInfiniteScrollView-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8CE4BDB356E02F28270DE63F /* libBTInfiniteScrollView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBTInfiniteScrollView.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		959B749D0AE8FB51B0B90C87 /* Pods-BTInfiniteScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BTInfiniteScrollView.debug.xcconfig"; sourceTree = "<group>"; };
-		BE575629CD14309655665FCB /* Pods-BTInfiniteScrollView-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BTInfiniteScrollView-frameworks.sh"; sourceTree = "<group>"; };
-		BEDB85F748860807B4BDF5DF /* BTInfiniteScrollView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BTInfiniteScrollView.xcconfig; sourceTree = "<group>"; };
-		E58ACA4F701036D1A14BACC5 /* Pods-BTInfiniteScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BTInfiniteScrollView.release.xcconfig"; sourceTree = "<group>"; };
-		EC735B054379048D47F2CAD4 /* Pods-BTInfiniteScrollView-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BTInfiniteScrollView-resources.sh"; sourceTree = "<group>"; };
-		F3F05ED43C808C5D62DABA1A /* BTInfiniteScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BTInfiniteScrollView.h; sourceTree = "<group>"; };
-		F7593BE78B822942A79483C1 /* libPods-BTInfiniteScrollView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BTInfiniteScrollView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11897A2F4D787F95DEBE912ADFF9314B /* Pods-BTInfiniteScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BTInfiniteScrollView.debug.xcconfig"; sourceTree = "<group>"; };
+		2F375B5798556419D426BE1E41469F0F /* Pods-BTInfiniteScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BTInfiniteScrollView-dummy.m"; sourceTree = "<group>"; };
+		3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5130B1662436CAE48638AC65B5C0AAB5 /* Pods-BTInfiniteScrollView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BTInfiniteScrollView-acknowledgements.plist"; sourceTree = "<group>"; };
+		561EDBA8972E6732C6C53644ACC53236 /* BTInfiniteScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BTInfiniteScrollView.m; sourceTree = "<group>"; };
+		5695BCC210B5F5E4B6EFC5E042C0ED08 /* libPods-BTInfiniteScrollView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BTInfiniteScrollView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E0AE7392B737EDBE0BAB9379B66923E /* BTInfiniteScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BTInfiniteScrollView.h; sourceTree = "<group>"; };
+		8F9E12402171C63F9F6AF5728C00BF9E /* BTInfiniteScrollView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BTInfiniteScrollView-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A194CBEC799A78481BA18B4BDB0DB2ED /* Pods-BTInfiniteScrollView-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BTInfiniteScrollView-frameworks.sh"; sourceTree = "<group>"; };
+		AFA472509EEBE8D3EAC2FC2BF340626E /* Pods-BTInfiniteScrollView-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BTInfiniteScrollView-resources.sh"; sourceTree = "<group>"; };
+		B1BA6B0927BFE02774F190E6390EFCA2 /* libBTInfiniteScrollView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBTInfiniteScrollView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD54EA4EF7D0ADB295AB44A2EC852FBE /* Pods-BTInfiniteScrollView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BTInfiniteScrollView-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D8227D9EF11B8CE66A1371ADEB406045 /* BTInfiniteScrollView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BTInfiniteScrollView.xcconfig; sourceTree = "<group>"; };
+		F604FF72EB3FA7BB809B4A2E22DC770E /* Pods-BTInfiniteScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BTInfiniteScrollView.release.xcconfig"; sourceTree = "<group>"; };
+		FC0FF76B4F850F24EACBC6913F692588 /* BTInfiniteScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BTInfiniteScrollView-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7DB83A4E03BEC6163AD27630 /* Frameworks */ = {
+		4B1867B6921CF293E48D01DD82A73236 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DB06F57B7007D0622760F1D /* Foundation.framework in Frameworks */,
+				0204B05AF93EA2C085877A4421D00EBE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DFC6E91E5D7B99697BDA07A4 /* Frameworks */ = {
+		71E8E6F52864C1441A94F24A54A504AB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E48F0A9262809E3E9B4F26B /* Foundation.framework in Frameworks */,
+				DD4F8BA3FB4A68075D04B0D813A1F832 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		37EA6DF5C63D8CBB646A02DA /* Targets Support Files */ = {
+		112C7921E3A497328D11F4930CBBC9CA /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				A176286ED6C0B462EEB120E2 /* Pods-BTInfiniteScrollView */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		3A4B96FE42F3C0A3C92151AF = {
-			isa = PBXGroup;
-			children = (
-				244091638A7FC99389873ACA /* Podfile */,
-				811F2C85D8F7383233239BB3 /* Development Pods */,
-				9026991B27B69E7802A9A14D /* Frameworks */,
-				861D8043C75D252F08920C2F /* Products */,
-				37EA6DF5C63D8CBB646A02DA /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		5E5108FE69447DEA6B66F142 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				F3F05ED43C808C5D62DABA1A /* BTInfiniteScrollView.h */,
-				339DEDE91FB874B324ED3659 /* BTInfiniteScrollView.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		678FDB627A6A25EA301E2B5E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				1BD9A0B2E4C7A4AF68002C4A /* Foundation.framework */,
+				3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7B2A65FC325120B3996A17A8 /* Support Files */ = {
+		31F5902B72436D478C1D86F1FCCEDDF2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BEDB85F748860807B4BDF5DF /* BTInfiniteScrollView.xcconfig */,
-				1A2DAEC14B8DADC17780E445 /* BTInfiniteScrollView-dummy.m */,
-				01EF30782C7F3B8539145F64 /* BTInfiniteScrollView-prefix.pch */,
+				B1BA6B0927BFE02774F190E6390EFCA2 /* libBTInfiniteScrollView.a */,
+				5695BCC210B5F5E4B6EFC5E042C0ED08 /* libPods-BTInfiniteScrollView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		570B5767348EE7EA209B4ED0AB99F895 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6D21D6DBB9DE2553C38FA190C754BA6 /* BTInfiniteScrollView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6E808F5222C530BA145EA5B48E048905 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8227D9EF11B8CE66A1371ADEB406045 /* BTInfiniteScrollView.xcconfig */,
+				FC0FF76B4F850F24EACBC6913F692588 /* BTInfiniteScrollView-dummy.m */,
+				8F9E12402171C63F9F6AF5728C00BF9E /* BTInfiniteScrollView-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/BTInfiniteScrollView";
 			sourceTree = "<group>";
 		};
-		811F2C85D8F7383233239BB3 /* Development Pods */ = {
+		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				D5DE31CD23276C7C73C0A7EA /* BTInfiniteScrollView */,
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				570B5767348EE7EA209B4ED0AB99F895 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				31F5902B72436D478C1D86F1FCCEDDF2 /* Products */,
+				D27D598324DF236894B1578D85513DCD /* Targets Support Files */,
 			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		861D8043C75D252F08920C2F /* Products */ = {
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8CE4BDB356E02F28270DE63F /* libBTInfiniteScrollView.a */,
-				F7593BE78B822942A79483C1 /* libPods-BTInfiniteScrollView.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		9026991B27B69E7802A9A14D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				678FDB627A6A25EA301E2B5E /* iOS */,
+				112C7921E3A497328D11F4930CBBC9CA /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A176286ED6C0B462EEB120E2 /* Pods-BTInfiniteScrollView */ = {
+		C4F08C545D1D9E922ED547A8FED4101A /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				8C39D556169284051A04BC77 /* Pods-BTInfiniteScrollView-acknowledgements.markdown */,
-				6BECBB97AC41B841A897E9BC /* Pods-BTInfiniteScrollView-acknowledgements.plist */,
-				74D04F5E0DE70CB58B6A97F0 /* Pods-BTInfiniteScrollView-dummy.m */,
-				BE575629CD14309655665FCB /* Pods-BTInfiniteScrollView-frameworks.sh */,
-				EC735B054379048D47F2CAD4 /* Pods-BTInfiniteScrollView-resources.sh */,
-				959B749D0AE8FB51B0B90C87 /* Pods-BTInfiniteScrollView.debug.xcconfig */,
-				E58ACA4F701036D1A14BACC5 /* Pods-BTInfiniteScrollView.release.xcconfig */,
+				C8045EFBD60AFF6401011AF9F604B5D9 /* Classes */,
 			);
-			name = "Pods-BTInfiniteScrollView";
-			path = "Target Support Files/Pods-BTInfiniteScrollView";
+			path = Pod;
 			sourceTree = "<group>";
 		};
-		D5DE31CD23276C7C73C0A7EA /* BTInfiniteScrollView */ = {
+		C8045EFBD60AFF6401011AF9F604B5D9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				F8541F2853CB2BF9B2DF41F6 /* Pod */,
-				7B2A65FC325120B3996A17A8 /* Support Files */,
+				5E0AE7392B737EDBE0BAB9379B66923E /* BTInfiniteScrollView.h */,
+				561EDBA8972E6732C6C53644ACC53236 /* BTInfiniteScrollView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D27D598324DF236894B1578D85513DCD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCCB50CD6DD0B55BD4E58B377BABEEC7 /* Pods-BTInfiniteScrollView */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E6D21D6DBB9DE2553C38FA190C754BA6 /* BTInfiniteScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				C4F08C545D1D9E922ED547A8FED4101A /* Pod */,
+				6E808F5222C530BA145EA5B48E048905 /* Support Files */,
 			);
 			name = BTInfiniteScrollView;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		F8541F2853CB2BF9B2DF41F6 /* Pod */ = {
+		FCCB50CD6DD0B55BD4E58B377BABEEC7 /* Pods-BTInfiniteScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				5E5108FE69447DEA6B66F142 /* Classes */,
+				BD54EA4EF7D0ADB295AB44A2EC852FBE /* Pods-BTInfiniteScrollView-acknowledgements.markdown */,
+				5130B1662436CAE48638AC65B5C0AAB5 /* Pods-BTInfiniteScrollView-acknowledgements.plist */,
+				2F375B5798556419D426BE1E41469F0F /* Pods-BTInfiniteScrollView-dummy.m */,
+				A194CBEC799A78481BA18B4BDB0DB2ED /* Pods-BTInfiniteScrollView-frameworks.sh */,
+				AFA472509EEBE8D3EAC2FC2BF340626E /* Pods-BTInfiniteScrollView-resources.sh */,
+				11897A2F4D787F95DEBE912ADFF9314B /* Pods-BTInfiniteScrollView.debug.xcconfig */,
+				F604FF72EB3FA7BB809B4A2E22DC770E /* Pods-BTInfiniteScrollView.release.xcconfig */,
 			);
-			path = Pod;
+			name = "Pods-BTInfiniteScrollView";
+			path = "Target Support Files/Pods-BTInfiniteScrollView";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2C801FE6887D941C737CC929 /* Headers */ = {
+		1352CD4B9EF4720B14C4F51ABE91E573 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D0A4073DCC207C97B2A6897 /* BTInfiniteScrollView.h in Headers */,
+				DB3902C76890E0C4F6BD1B44869FA83F /* BTInfiniteScrollView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4DDA8EF2AC04D069093DC894 /* Pods-BTInfiniteScrollView */ = {
+		18CE28428115D44FFB8AC3FC55F73F8C /* Pods-BTInfiniteScrollView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F50398755833C0C490438883 /* Build configuration list for PBXNativeTarget "Pods-BTInfiniteScrollView" */;
+			buildConfigurationList = 15E4E55CF321B571AA71F5388838438F /* Build configuration list for PBXNativeTarget "Pods-BTInfiniteScrollView" */;
 			buildPhases = (
-				D857BC9058EFCD105DF7574D /* Sources */,
-				DFC6E91E5D7B99697BDA07A4 /* Frameworks */,
+				11911F4F1BF955EC178CE010908DAD9B /* Sources */,
+				4B1867B6921CF293E48D01DD82A73236 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				53BE8FE9E799FCF0FFF3CFC0 /* PBXTargetDependency */,
+				BC0F3CB064B1FAE20EEF8CC2CA1200E9 /* PBXTargetDependency */,
 			);
 			name = "Pods-BTInfiniteScrollView";
 			productName = "Pods-BTInfiniteScrollView";
-			productReference = F7593BE78B822942A79483C1 /* libPods-BTInfiniteScrollView.a */;
+			productReference = 5695BCC210B5F5E4B6EFC5E042C0ED08 /* libPods-BTInfiniteScrollView.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		F5388A9A9CBBDB230AE26B3F /* BTInfiniteScrollView */ = {
+		EBF1119F95EEC6A59989212D8B080715 /* BTInfiniteScrollView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1C8C45E1622B46E84D2A7EB6 /* Build configuration list for PBXNativeTarget "BTInfiniteScrollView" */;
+			buildConfigurationList = C50FD99FB8FE5DA8CE51F26AE4F096F9 /* Build configuration list for PBXNativeTarget "BTInfiniteScrollView" */;
 			buildPhases = (
-				69BF73F9CECB43341130EB7A /* Sources */,
-				7DB83A4E03BEC6163AD27630 /* Frameworks */,
-				2C801FE6887D941C737CC929 /* Headers */,
+				A049703C5458AF692CF7917A0FC06D9A /* Sources */,
+				71E8E6F52864C1441A94F24A54A504AB /* Frameworks */,
+				1352CD4B9EF4720B14C4F51ABE91E573 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -214,84 +214,88 @@
 			);
 			name = BTInfiniteScrollView;
 			productName = BTInfiniteScrollView;
-			productReference = 8CE4BDB356E02F28270DE63F /* libBTInfiniteScrollView.a */;
+			productReference = B1BA6B0927BFE02774F190E6390EFCA2 /* libBTInfiniteScrollView.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1E9C32AEF338834B21025991 /* Project object */ = {
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0700;
 			};
-			buildConfigurationList = D2B032182C0B31B2AE22C111 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 3A4B96FE42F3C0A3C92151AF;
-			productRefGroup = 861D8043C75D252F08920C2F /* Products */;
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 31F5902B72436D478C1D86F1FCCEDDF2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F5388A9A9CBBDB230AE26B3F /* BTInfiniteScrollView */,
-				4DDA8EF2AC04D069093DC894 /* Pods-BTInfiniteScrollView */,
+				EBF1119F95EEC6A59989212D8B080715 /* BTInfiniteScrollView */,
+				18CE28428115D44FFB8AC3FC55F73F8C /* Pods-BTInfiniteScrollView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		69BF73F9CECB43341130EB7A /* Sources */ = {
+		11911F4F1BF955EC178CE010908DAD9B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24A72F755CC3921A5A58DAF3 /* BTInfiniteScrollView-dummy.m in Sources */,
-				36D43605FDAE8186EDED5372 /* BTInfiniteScrollView.m in Sources */,
+				18D229468598D5E1473B39A618AC600A /* Pods-BTInfiniteScrollView-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D857BC9058EFCD105DF7574D /* Sources */ = {
+		A049703C5458AF692CF7917A0FC06D9A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				085644AB567FF1CBFDFDFD3C /* Pods-BTInfiniteScrollView-dummy.m in Sources */,
+				FE21C7A2A028E7F61398A90A6E299E20 /* BTInfiniteScrollView-dummy.m in Sources */,
+				B08E5E30DC11B962F3946F4D29D45743 /* BTInfiniteScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		53BE8FE9E799FCF0FFF3CFC0 /* PBXTargetDependency */ = {
+		BC0F3CB064B1FAE20EEF8CC2CA1200E9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BTInfiniteScrollView;
-			target = F5388A9A9CBBDB230AE26B3F /* BTInfiniteScrollView */;
-			targetProxy = FD99DDCB558AEDF5818F57A0 /* PBXContainerItemProxy */;
+			target = EBF1119F95EEC6A59989212D8B080715 /* BTInfiniteScrollView */;
+			targetProxy = 7BA4C495043A0C5FD386ED15BE4F3A93 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0E3FBF7E36A5DFB94DD450F6 /* Debug */ = {
+		0EA2E14E0DFC4BCA750341523CEC9D72 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 959B749D0AE8FB51B0B90C87 /* Pods-BTInfiniteScrollView.debug.xcconfig */;
+			baseConfigurationReference = 11897A2F4D787F95DEBE912ADFF9314B /* Pods-BTInfiniteScrollView.debug.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		469E82148A1B410AB4A06783 /* Release */ = {
+		2C442C92732ADBDBFA54CF4EA7B71CDF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -311,7 +315,10 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -325,7 +332,70 @@
 			};
 			name = Release;
 		};
-		7A7220BD9E7CC530D6416ADD /* Debug */ = {
+		85974EBB498FBBCB9063FEFC18FE4EA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8227D9EF11B8CE66A1371ADEB406045 /* BTInfiniteScrollView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BTInfiniteScrollView/BTInfiniteScrollView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9B7B44F9D60611502938A5584CE00E82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F604FF72EB3FA7BB809B4A2E22DC770E /* Pods-BTInfiniteScrollView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C7E4E03D7FDBA00993232AB3EEDCFCEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8227D9EF11B8CE66A1371ADEB406045 /* BTInfiniteScrollView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BTInfiniteScrollView/BTInfiniteScrollView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DB44C5CA5E7AC762546FE4E73ED003F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -343,10 +413,12 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
@@ -364,90 +436,37 @@
 			};
 			name = Debug;
 		};
-		9ABCA67ED994C6D04040E46F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BEDB85F748860807B4BDF5DF /* BTInfiniteScrollView.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/BTInfiniteScrollView/BTInfiniteScrollView-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		B5BA7A615C26AFEBAD6B4AD0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BEDB85F748860807B4BDF5DF /* BTInfiniteScrollView.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/BTInfiniteScrollView/BTInfiniteScrollView-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		D43FE18C2BE7E25C8572349C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E58ACA4F701036D1A14BACC5 /* Pods-BTInfiniteScrollView.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1C8C45E1622B46E84D2A7EB6 /* Build configuration list for PBXNativeTarget "BTInfiniteScrollView" */ = {
+		15E4E55CF321B571AA71F5388838438F /* Build configuration list for PBXNativeTarget "Pods-BTInfiniteScrollView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B5BA7A615C26AFEBAD6B4AD0 /* Debug */,
-				9ABCA67ED994C6D04040E46F /* Release */,
+				0EA2E14E0DFC4BCA750341523CEC9D72 /* Debug */,
+				9B7B44F9D60611502938A5584CE00E82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2B032182C0B31B2AE22C111 /* Build configuration list for PBXProject "Pods" */ = {
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7A7220BD9E7CC530D6416ADD /* Debug */,
-				469E82148A1B410AB4A06783 /* Release */,
+				DB44C5CA5E7AC762546FE4E73ED003F3 /* Debug */,
+				2C442C92732ADBDBFA54CF4EA7B71CDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F50398755833C0C490438883 /* Build configuration list for PBXNativeTarget "Pods-BTInfiniteScrollView" */ = {
+		C50FD99FB8FE5DA8CE51F26AE4F096F9 /* Build configuration list for PBXNativeTarget "BTInfiniteScrollView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0E3FBF7E36A5DFB94DD450F6 /* Debug */,
-				D43FE18C2BE7E25C8572349C /* Release */,
+				C7E4E03D7FDBA00993232AB3EEDCFCEB /* Debug */,
+				85974EBB498FBBCB9063FEFC18FE4EA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1E9C32AEF338834B21025991 /* Project object */;
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 }

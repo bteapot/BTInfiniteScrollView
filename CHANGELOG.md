@@ -1,6 +1,12 @@
 # BTInfiniteScrollView CHANGELOG
 
 
+## 1.0.5
+
+Corrected the wrong placement of views when using -reloadViews method. 
+Fixes #2.
+
+
 ## 1.0.4
 
 Improved internal bounds shift.

@@ -1,5 +1,5 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
-target 'BTInfiniteScrollView', :exclusive => true do
+target 'BTInfiniteScrollView' do
   pod "BTInfiniteScrollView", :path => "../"
 end

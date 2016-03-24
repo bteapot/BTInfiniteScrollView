@@ -452,27 +452,27 @@
 	switch (place) {
 		case BTPositionStart: {
 			if (self.horizontal) {
-				item.view.frame = CGRectMake(edge - thickness, 0, thickness, self.thickness);
+				view.frame = CGRectMake(edge - thickness, 0, thickness, self.thickness);
 			} else {
-				item.view.frame = CGRectMake(0, edge - thickness, self.thickness, thickness);
+				view.frame = CGRectMake(0, edge - thickness, self.thickness, thickness);
 			}
 			break;
 		}
 		
 		case BTPositionMiddle: {
 			if (self.horizontal) {
-				item.view.frame = CGRectMake(edge - thickness / 2, 0, thickness, self.thickness);
+				view.frame = CGRectMake(edge - thickness / 2, 0, thickness, self.thickness);
 			} else {
-				item.view.frame = CGRectMake(0, edge - thickness / 2, self.thickness, thickness);
+				view.frame = CGRectMake(0, edge - thickness / 2, self.thickness, thickness);
 			}
 			break;
 		}
 		
 		case BTPositionEnd: {
 			if (self.horizontal) {
-				item.view.frame = CGRectMake(edge, 0, thickness, self.thickness);
+				view.frame = CGRectMake(edge, 0, thickness, self.thickness);
 			} else {
-				item.view.frame = CGRectMake(0, edge, self.thickness, thickness);
+				view.frame = CGRectMake(0, edge, self.thickness, thickness);
 			}
 			break;
 		}
@@ -525,7 +525,7 @@
 	item = [self itemAtIndex:(previousItem.index - 1)];
 	
 	while (item) {
-		[self reloadViewForItem:item place:BTPositionEnd edge:previousItem.max];
+		[self reloadViewForItem:item place:BTPositionStart edge:previousItem.min];
 		previousItem = item;
 		item = [self itemAtIndex:(previousItem.index - 1)];
 	}
