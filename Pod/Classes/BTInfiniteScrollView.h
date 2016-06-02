@@ -73,7 +73,7 @@ typedef NS_ENUM(NSUInteger, BTPosition) {
 /**
  Delegate object of BTInfiniteScrollView.
  */
-@property (nonatomic, assign) id <BTInfiniteScrollViewDelegate> delegate;
+@property (nonatomic, weak) id <BTInfiniteScrollViewDelegate> delegate;
 /**
  Default thickness of item views.
  @discussion In horizontal mode this attribute defines default width of item views, and height - in vertical mode.

@@ -22,7 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		359E52B6AAFC5F5DAA6A8675 /* Pods-BTInfiniteScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTInfiniteScrollView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BTInfiniteScrollView/Pods-BTInfiniteScrollView.debug.xcconfig"; sourceTree = "<group>"; };
+		290E77230A2BDF86C61697F9 /* Pods-BTInfiniteScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTInfiniteScrollView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BTInfiniteScrollView/Pods-BTInfiniteScrollView.debug.xcconfig"; sourceTree = "<group>"; };
 		501E16AEC90BEF67039C2A9D /* BTInfiniteScrollView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BTInfiniteScrollView.podspec; path = ../BTInfiniteScrollView.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* BTInfiniteScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTInfiniteScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -46,7 +46,7 @@
 		92037BD71A484DE400EBA062 /* BTItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTItemView.m; sourceTree = "<group>"; };
 		924DC0761C20644C00B276F8 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = CHANGELOG.md; path = ../CHANGELOG.md; sourceTree = "<group>"; };
 		978E5B5A5EC5F8B73DB26B19 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		A51782360F263387B9762410 /* Pods-BTInfiniteScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTInfiniteScrollView.release.xcconfig"; path = "Pods/Target Support Files/Pods-BTInfiniteScrollView/Pods-BTInfiniteScrollView.release.xcconfig"; sourceTree = "<group>"; };
+		C03A9A21B4AF52CF74BAEA49 /* Pods-BTInfiniteScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTInfiniteScrollView.release.xcconfig"; path = "Pods/Target Support Files/Pods-BTInfiniteScrollView/Pods-BTInfiniteScrollView.release.xcconfig"; sourceTree = "<group>"; };
 		D6A0F124A51BFEFDF24D0406 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,7 +72,7 @@
 				6003F593195388D20070C39A /* BTInfiniteScrollView */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				F6B566698B97FE2FD4227056 /* Pods */,
+				CDFF920E258AC5EB227DA27B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,11 +144,11 @@
 			name = Classes;
 			sourceTree = "<group>";
 		};
-		F6B566698B97FE2FD4227056 /* Pods */ = {
+		CDFF920E258AC5EB227DA27B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				359E52B6AAFC5F5DAA6A8675 /* Pods-BTInfiniteScrollView.debug.xcconfig */,
-				A51782360F263387B9762410 /* Pods-BTInfiniteScrollView.release.xcconfig */,
+				290E77230A2BDF86C61697F9 /* Pods-BTInfiniteScrollView.debug.xcconfig */,
+				C03A9A21B4AF52CF74BAEA49 /* Pods-BTInfiniteScrollView.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -366,7 +366,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 359E52B6AAFC5F5DAA6A8675 /* Pods-BTInfiniteScrollView.debug.xcconfig */;
+			baseConfigurationReference = 290E77230A2BDF86C61697F9 /* Pods-BTInfiniteScrollView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -380,7 +380,7 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A51782360F263387B9762410 /* Pods-BTInfiniteScrollView.release.xcconfig */;
+			baseConfigurationReference = C03A9A21B4AF52CF74BAEA49 /* Pods-BTInfiniteScrollView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
