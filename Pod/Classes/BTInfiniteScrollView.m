@@ -90,6 +90,7 @@
 		self.lastReportedItemIndex = NSIntegerMax;
 		self.autoresizesSubviews = NO;
 		self.bounces = NO;
+		self.scrollsToTop = NO;
 		
 		if (self.horizontal) {
 			self.showsHorizontalScrollIndicator = NO;

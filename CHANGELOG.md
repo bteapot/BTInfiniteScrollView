@@ -1,6 +1,16 @@
 # BTInfiniteScrollView CHANGELOG
 
 
+## 1.0.7
+
+Disable `scrollsToTop` functionality.
+
+
+## 1.0.6
+
+Use `weak` in `delegate` property declaration.
+
+
 ## 1.0.5
 
 Corrected the wrong placement of views when using -reloadViews method. 

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "BTInfiniteScrollView"
-  s.version          = "1.0.6"
+  s.version          = "1.0.7"
   s.summary          = "Yet another Infinite ScrollView."
   s.description      = <<-DESC
                        UIScrollView subclass with infinite scrolling.
