@@ -28,7 +28,8 @@ it, simply add the following line to your Podfile:
 
 ## Author
 
-Denis Libit, bteapot@me.com
+Denis Libit,  
+bteapot@me.com
 
 ## License
 
