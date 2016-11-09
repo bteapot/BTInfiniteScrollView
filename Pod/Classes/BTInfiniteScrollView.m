@@ -167,6 +167,10 @@
 // -----------------------------------------------------------------------------
 - (void)layoutSubviews
 {
+	if (!self.delegate) {
+		return;
+	}
+	
 	// сдвинем контент, если надо
 	CGRect bounds = self.bounds;
 	CGFloat visible = self.horizontal ? bounds.size.width : bounds.size.height;

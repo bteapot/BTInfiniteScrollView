@@ -1,6 +1,10 @@
 # BTInfiniteScrollView CHANGELOG
 
 
+## 1.0.8
+
+Suspend layout with empty `delegate`.
+
 ## 1.0.7
 
 Disable `scrollsToTop` functionality.
