@@ -1,6 +1,11 @@
 # BTInfiniteScrollView CHANGELOG
 
 
+## 1.1.0
+
+Default item thickness now respects scroll view's edge insets.
+Scroll view now maintains padding of extra items by asking its delegate for new items earlier, at extra half bounds length, and by disposing of items later, at full bounds length.
+
 ## 1.0.9
 
 Item placements synchronized with ongoing animation.

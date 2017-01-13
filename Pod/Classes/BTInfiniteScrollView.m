@@ -222,6 +222,7 @@
 	// границы видимого
 	CGFloat minVisible = self.horizontal ? CGRectGetMinX(bounds) : CGRectGetMinY(bounds);
 	CGFloat maxVisible = self.horizontal ? CGRectGetMaxX(bounds) : CGRectGetMaxY(bounds);
+	CGFloat padding = self.horizontal ? CGRectGetWidth(bounds) : CGRectGetHeight(bounds);
 	
 	BTItem *item;
 	
@@ -239,7 +240,7 @@
 		endEdge = [self placeFirstItemAtIndex:self.initialItemIndex];
 	}
 	
-	while (endEdge < maxVisible) {
+	while (endEdge < maxVisible + padding / 2) {
 		index++;
 		endEdge = [self placeNewItemAtPosition:BTPositionEnd edge:endEdge index:index];
 	}
@@ -249,7 +250,7 @@
 	index = item.index;
 	CGFloat startEdge = item.min;
 	
-	while (startEdge > minVisible) {
+	while (startEdge > minVisible - padding / 2) {
 		index--;
 		startEdge = [self placeNewItemAtPosition:BTPositionStart edge:startEdge index:index];
 	}
@@ -259,7 +260,7 @@
 		
 		// удалим выпавшие справа вьюхи
 		item = self.items.lastObject;
-		while (item.min >= maxVisible) {
+		while (item.min >= maxVisible + padding) {
 			[viewsToRemove addObject:item.view];
 			[self.items removeLastObject];
 			item = self.items.lastObject;
@@ -267,7 +268,7 @@
 		
 		// удалим выпавшие слева вьюхи
 		item = self.items.firstObject;
-		while (item.max <= minVisible) {
+		while (item.max <= minVisible - padding) {
 			[viewsToRemove addObject:item.view];
 			[self.items removeObjectAtIndex:0];
 			item = self.items.firstObject;
@@ -595,13 +596,13 @@
 // -----------------------------------------------------------------------------
 - (void)scrollToViewAtIndex:(NSInteger)index position:(BTPosition)position offset:(CGFloat)offset animated:(BOOL)animated
 {
-	CGRect bounds = self.bounds;
+	CGRect bounds = UIEdgeInsetsInsetRect(self.bounds, self.contentInset);
 	
 	if (CGRectIsEmpty(bounds)) {
 		return;
 	}
 	
-	CGFloat visible = self.horizontal ? bounds.size.width : bounds.size.height;
+	CGFloat visible = self.horizontal ? bounds.size.width * 3 : bounds.size.height * 3;
 	
 	// направление
 	BTItem *firstItem = self.items.firstObject;
@@ -764,7 +765,7 @@
 	[CATransaction begin];
 	[CATransaction setDisableActions:YES];
 	
-	CGRect bounds = self.bounds;
+	CGRect bounds = UIEdgeInsetsInsetRect(self.bounds, self.contentInset);
 	CGFloat thickness = self.horizontal ? bounds.size.width : bounds.size.height;
 	UIView *view = [self.delegate infiniteScrollView:self viewForIndex:index thickness:&thickness];
 	thickness = ceil(thickness);
@@ -792,7 +793,7 @@
 	[CATransaction begin];
 	[CATransaction setDisableActions:YES];
 	
-	CGRect bounds = self.bounds;
+	CGRect bounds = UIEdgeInsetsInsetRect(self.bounds, self.contentInset);
 	CGFloat thickness = self.horizontal ? bounds.size.width : bounds.size.height;
 	UIView *view = [self.delegate infiniteScrollView:self viewForIndex:index thickness:&thickness];
 	thickness = ceil(thickness);
@@ -855,7 +856,7 @@
 	[CATransaction begin];
 	[CATransaction setDisableActions:YES];
 	
-	CGRect bounds = self.bounds;
+	CGRect bounds = UIEdgeInsetsInsetRect(self.bounds, self.contentInset);
 	CGFloat thickness = self.horizontal ? bounds.size.width : bounds.size.height;
 	UIView *view = [self.delegate infiniteScrollView:self viewForIndex:index thickness:&thickness];
 	thickness = ceil(thickness);
