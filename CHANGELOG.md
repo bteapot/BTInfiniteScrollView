@@ -1,6 +1,10 @@
 # BTInfiniteScrollView CHANGELOG
 
 
+## 1.0.9
+
+Item placements synchronized with ongoing animation.
+
 ## 1.0.8
 
 Suspend layout with empty `delegate`.
@@ -9,38 +13,31 @@ Suspend layout with empty `delegate`.
 
 Disable `scrollsToTop` functionality.
 
-
 ## 1.0.6
 
 Use `weak` in `delegate` property declaration.
-
 
 ## 1.0.5
 
 Corrected the wrong placement of views when using -reloadViews method. 
 Fixes #2.
 
-
 ## 1.0.4
 
 Improved internal bounds shift.
 Added CHANGELOG.
 
-
 ## 1.0.3
 
 Added method to scroll to view at specified index with offset in points.
-
 
 ## 1.0.2
 
 Cleaned Podspec file.
 
-
 ## 1.0.1
 
 Version bump.
-
 
 ## 1.0.0
 

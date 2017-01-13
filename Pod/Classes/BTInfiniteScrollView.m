@@ -65,6 +65,7 @@
 @property (nonatomic, assign) NSUInteger scrolling;
 @property (nonatomic, assign) BOOL dataSourceImplementsDidShowViewForIndex;
 @property (nonatomic, assign) NSInteger lastReportedItemIndex;
+@property (nonatomic, assign) NSInteger initialItemIndex;
 
 @end
 
@@ -172,6 +173,9 @@
 	}
 	
 	// сдвинем контент, если надо
+	[CATransaction begin];
+	[CATransaction setDisableActions:YES];
+	
 	CGRect bounds = self.bounds;
 	CGFloat visible = self.horizontal ? bounds.size.width : bounds.size.height;
 	
@@ -201,6 +205,20 @@
 		}
 	}
 	
+	[CATransaction commit];
+	
+	// синхронизируемся с текущей анимацией
+	CAAnimation *animation = [self.layer animationForKey:self.layer.animationKeys.firstObject];
+	
+	if (animation) {
+		[CATransaction begin];
+		[CATransaction setAnimationDuration:animation.duration];
+		[CATransaction setAnimationTimingFunction:animation.timingFunction];
+	}
+	
+	// список вьюх на удаление
+	NSMutableArray *viewsToRemove = [NSMutableArray array];
+	
 	// границы видимого
 	CGFloat minVisible = self.horizontal ? CGRectGetMinX(bounds) : CGRectGetMinY(bounds);
 	CGFloat maxVisible = self.horizontal ? CGRectGetMaxX(bounds) : CGRectGetMaxY(bounds);
@@ -218,7 +236,7 @@
 		index = item.index;
 		endEdge = item.max;
 	} else {
-		endEdge = [self placeFirstItemAtIndex:0];
+		endEdge = [self placeFirstItemAtIndex:self.initialItemIndex];
 	}
 	
 	while (endEdge < maxVisible) {
@@ -242,7 +260,7 @@
 		// удалим выпавшие справа вьюхи
 		item = self.items.lastObject;
 		while (item.min >= maxVisible) {
-			[item.view removeFromSuperview];
+			[viewsToRemove addObject:item.view];
 			[self.items removeLastObject];
 			item = self.items.lastObject;
 		}
@@ -250,11 +268,21 @@
 		// удалим выпавшие слева вьюхи
 		item = self.items.firstObject;
 		while (item.max <= minVisible) {
-			[item.view removeFromSuperview];
+			[viewsToRemove addObject:item.view];
 			[self.items removeObjectAtIndex:0];
 			item = self.items.firstObject;
 		}
 	}
+	
+	// запускаем анимацию
+	if (animation) {
+		[CATransaction commit];
+	}
+	
+	// уберём выпавшие вьюхи
+	dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(animation.duration * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+		[viewsToRemove makeObjectsPerformSelector:@selector(removeFromSuperview)];
+	});
 	
 	// уведомим, если надо, источник данных
 	if (self.dataSourceImplementsDidShowViewForIndex) {
@@ -400,7 +428,7 @@
 	
 	switch (position) {
 		case BTPositionStart:
-			mark = ceilf(self.horizontal ? CGRectGetMinX(bounds) : CGRectGetMinY(bounds));
+			mark = ceil(self.horizontal ? CGRectGetMinX(bounds) : CGRectGetMinY(bounds));
 			
 			for (BTItem *item in self.items) {
 				if (item.min <= mark && item.max > mark) {
@@ -420,7 +448,7 @@
 			break;
 			
 		case BTPositionEnd:
-			mark = floorf(self.horizontal ? CGRectGetMaxX(bounds) : CGRectGetMaxY(bounds));
+			mark = floor(self.horizontal ? CGRectGetMaxX(bounds) : CGRectGetMaxY(bounds));
 			
 			for (BTItem *item in self.items) {
 				if (item.min < mark && item.max >= mark) {
@@ -451,7 +479,7 @@
 	// получим новую вьюху
 	CGFloat thickness = item.thickness;
 	UIView *view = [self.delegate infiniteScrollView:self viewForIndex:item.index thickness:&thickness];
-	thickness = ceilf(thickness);
+	thickness = ceil(thickness);
 	
 	// поставим вьюху
 	switch (place) {
@@ -546,6 +574,7 @@
 - (void)resetWithIndex:(NSInteger)index
 {
 	if (CGRectIsEmpty(self.bounds)) {
+		self.initialItemIndex = index;
 		return;
 	}
 	
@@ -732,16 +761,21 @@
 // -----------------------------------------------------------------------------
 - (BTItem *)getNewItemForIndex:(NSInteger)index
 {
+	[CATransaction begin];
+	[CATransaction setDisableActions:YES];
+	
 	CGRect bounds = self.bounds;
 	CGFloat thickness = self.horizontal ? bounds.size.width : bounds.size.height;
 	UIView *view = [self.delegate infiniteScrollView:self viewForIndex:index thickness:&thickness];
-	thickness = ceilf(thickness);
+	thickness = ceil(thickness);
 	
 	if (self.horizontal) {
 		view.frame = CGRectMake(0, 0, thickness, self.thickness);
 	} else {
 		view.frame = CGRectMake(0, 0, self.thickness, thickness);
 	}
+	
+	[CATransaction commit];
 	
 	BTItem *item = [[BTItem alloc] init];
 	item.horizontal = self.horizontal;
@@ -755,10 +789,13 @@
 // -----------------------------------------------------------------------------
 - (CGFloat)placeNewItemAtPosition:(BTPosition)position edge:(CGFloat)edge index:(NSInteger)index
 {
+	[CATransaction begin];
+	[CATransaction setDisableActions:YES];
+	
 	CGRect bounds = self.bounds;
 	CGFloat thickness = self.horizontal ? bounds.size.width : bounds.size.height;
 	UIView *view = [self.delegate infiniteScrollView:self viewForIndex:index thickness:&thickness];
-	thickness = ceilf(thickness);
+	thickness = ceil(thickness);
 	
 	switch (position) {
 		case BTPositionStart:
@@ -789,6 +826,8 @@
 	
 	[self addSubview:view];
 	
+	[CATransaction commit];
+	
 	BTItem *item = [[BTItem alloc] init];
 	item.horizontal = self.horizontal;
 	item.index = index;
@@ -813,10 +852,13 @@
 // -----------------------------------------------------------------------------
 - (CGFloat)placeFirstItemAtIndex:(NSInteger)index
 {
+	[CATransaction begin];
+	[CATransaction setDisableActions:YES];
+	
 	CGRect bounds = self.bounds;
 	CGFloat thickness = self.horizontal ? bounds.size.width : bounds.size.height;
 	UIView *view = [self.delegate infiniteScrollView:self viewForIndex:index thickness:&thickness];
-	thickness = ceilf(thickness);
+	thickness = ceil(thickness);
 	
 	switch (self.position) {
 		case BTPositionStart:
@@ -846,6 +888,8 @@
 	
 	
 	[self addSubview:view];
+	
+	[CATransaction commit];
 	
 	BTItem *item = [[BTItem alloc] init];
 	item.horizontal = self.horizontal;
