@@ -1,6 +1,10 @@
 # BTInfiniteScrollView CHANGELOG
 
 
+## 1.1.1
+
+Corrected wrong item's index for initial placement.
+
 ## 1.1.0
 
 Default item thickness now respects scroll view's edge insets.

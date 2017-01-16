@@ -237,7 +237,8 @@
 		index = item.index;
 		endEdge = item.max;
 	} else {
-		endEdge = [self placeFirstItemAtIndex:self.initialItemIndex];
+		index = self.initialItemIndex;
+		endEdge = [self placeFirstItemAtIndex:index];
 	}
 	
 	while (endEdge < maxVisible + padding / 2) {
